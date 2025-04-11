@@ -1,0 +1,36 @@
+/* variaveis com o escopo global */
+:root{
+    --color-blue : #002;
+    --color-light : #f4f4f4;
+}
+
+/* reset CSS - "*" ele representa todas as tags que estão na página 
+- todos usarão essas regras */
+
+*{
+  margin: 0;
+}
+
+.container{
+     width: 100%;   /* largura  */
+     height: 100vh;   /* altura */
+     color: var(--color-light);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50%;
+     background-attachment: fixed;
+}
+    
+.bg-blue{
+    background-color: var(--color-blue);   /* cor de fundo */
+}
+
+.bg-image-1 {
+    background-image: url(../images/pexels-asman-chema-91897-594077.jpg);
+}
+
+.bg-image-2{
+    background-image: url(../images/pexels-boonkong-boonpeng-442952-1134176.jpg);
+}
+
+
